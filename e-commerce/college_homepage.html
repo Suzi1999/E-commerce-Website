@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Noto+Serif:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Noto+Serif:ital,wght@1,700&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Noto+Serif:ital,wght@1,700&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+<title>E-commerce Website</title>
+	<style>
+
+		body {
+			
+			margin: 0;
+			padding: 0;
+            scroll-behavior: smooth;
+		}
+		header {
+			
+			font-weight: bold;
+			background-color: #e8f7f8;
+			color: #e3f3ea;
+			padding: 30px;
+			text-align: center;
+		}
+		h1 {
+			font-family: 'Instrument Serif', serif;
+            font-family: 'Noto Serif', serif;
+            font-family: 'Playfair Display', serif;
+
+			margin: 0;
+			border-radius: 30%;
+			font-size: 50px;
+            background: #943289;
+            padding: 10px;
+		}
+		nav {
+			font-family: 'Playfair Display', 'Noto Serif', serif;
+
+			font-size: bold;
+			background-color: #a2d3d5;
+            justify-content: space-between;
+            display: flex;
+			overflow: hidden;
+			padding: 20px;
+		}
+		nav a {
+			
+			float: left;
+			color: #333;
+			text-align: center;
+			padding: 10px;
+			text-decoration: none;
+			font-size: 1.2em;
+			font-weight: bold;
+			margin-right: 10px;
+		}
+		nav a:hover {
+			background-color: #dbdada;
+			color: #181616;
+		}
+        nav a:active{
+            background-color: #fbfafa;
+			font-family: 'Instrument Serif', serif;
+        }
+		h2{
+			font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+			text-align: center;
+		}
+		section {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 20px;
+		}
+		.product {
+			flex: 1;
+			background-color: #d9bfbf;
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+		}
+		.product img {
+			max-width: 100%;
+			height: auto;
+		}
+		.product h2 {
+			font-family:  Georgia, Times, 'Times New Roman', serif;
+			margin-top: 0;
+			font-size: 1.5em;
+			font-weight: bold;
+		}
+		.product p {
+			margin-bottom: 0;
+			font-size: 1.2em;
+		}
+		.product button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-top: 10px;
+			font-size: 1.2em;
+		}
+		.product button:hover {
+			background-color: #fff;
+			color: #333;
+		}
+
+        section h2 {
+			font-family: 'Instrument Serif', serif;
+            font-family: 'Noto Serif', serif; 
+			font-size: xx-large;
+			flex-basis: 100%;
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Online  Store</h1>
+	</header>
+	<nav>
+		<a class="active" href="#electronics">Electronics</a>
+		<a class="active" href="#clothing">Clothing</a>
+		<a class="active" href="#footwear">Footwear</a>
+		<a class="active" href="#furniture">Furniture</a>
+	
+    <form>
+        <input type="text" placeholder="Search...">
+        <button type="submit">Go</button>
+    </form>
+</nav>
+
+<!--Electronics-->
+	<section>
+        <h2>Electronics</h2>
+		<div id="electronics" class="product">
+			<h2>Mobiles</h2>
+			<img src="e1.jpg" alt="Product Image">
+			<h3>Apple iPhone 13 Pro Max</h3>
+			<p>Brand: Apple</p>
+			<p>Price: ₹134,999</p>
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<h2>Mobiles</h2>
+			<img src="e2.jpg" alt="Product Image">
+			<h3>Samsung Galaxy A03s</h3>
+			<p>Brand:Samsung </p>
+			<p>Price: ₹10,999</p>
+			
+			<button>Add to Cart</button>
+		</div>
+		<div class="product">
+			<h2>Mobiles</h2>
+      
+			<img src="e4.jpg" alt="Product Image">
+			<h3>Redmi Note 12 Pro+</h3>
+			<p>Brand: Redmi</p>
+			<p>Price: ₹24,999</p>
+			<button>Add to Cart</button>
+		</div>
+        <div class="product">
+			<h2>Mobiles</h2>
+			<img src="e3.jpg" alt="Product Image">
+			<h3>OnePLUS Nord 2T 5G</h3>
+			<p>Brand: One Plus</p>
+			<p>Price: ₹33,999</p>
+			<button>Add to Cart</button>
+		</div>
+  </section>
+
+<!--Clothing-->
+  <section>
+    <h2>Clothing</h2>
+    <div id="Clothing" class="product">
+        <h2>Jeans</h2>
+        <img src="c1.jpg" alt="Product Image">
+		<h3>Slim Fit</h3>
+        <p>Brand: Pepe Jeans</p>
+        <p>Price: ₹2999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Jeans</h2>
+        <img src="c2.jpeg" alt="Product Image">
+		<h3>Straight</h3>
+        <p>Brand:Wrangler</p>
+        <p>Price: ₹3,009</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Jeans</h2>
+        <img src="c3.jpg" alt="Product Image">
+		<h3>Ripped </h3>
+        <p>Brand:Levi's </p>
+        <p>Price:₹1752  </p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Jeans</h2>
+        <img src="c4.jpg" alt="Product Image">
+		<h3>Baggy Fit</h3>
+        <p>Brand:Lee Cooper  </p>
+        <p>Price: ₹2,249</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<!--Footwear-->
+<section>
+    <h2>Footwear</h2>
+    <div id="Footwear" class="product">
+        <h2>Heels</h2>
+        <img src="f1.jpg" alt="Product Image">
+        <h3>Block Heels</h3>
+		<p>Brand: Steve Madden</p>
+        <p>Price: ₹5,249</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Heels</h2>
+        <img src="f2.jpg" alt="Product Image">
+		<h3>Peep Toe Heels</h3>
+        <p>Brand:SHUZ TOUCH </p>
+        <p>Price:₹999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Heels</h2>
+        <img src="f3.jpg" alt="Product Image">
+        <h3>Wedge Heels</h3>
+		<p>Brand:MOSAC </p>
+        <p>Price: ₹ 6,400</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Heels</h2>
+        <img src="f4.jpg" alt="Product Image">
+        <h3>Ankle Booties Heels</h3>
+		<p>Brand: Lucky Brand</p>
+        <p>Price: ₹7,694</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<!--Furniture-->
+<section>
+    <h2>Furniture</h2>
+    <div id="Furniture" class="product">
+        <h2>Chairs</h2>
+        <img src="fu1.jpg" alt="Product Image">
+		<h3>Arm Chair</h3>
+        <p>Brand:Havertys Furniture </p>
+        <p>Price: ₹22000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Chairs</h2>
+        <img src="fu2.jpeg" alt="Product Image">
+		<h3>Rocking Chair</h3>
+        <p>Brand:Sonu Handicrafts</p>
+        <p>Price: ₹17000</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Chairs</h2>
+  
+        <img src="fu3.jpg" alt="Product Image">
+		<h3>Desk Chair</h3>
+        <p>Brand:Godrej Interio </p>
+        <p>Price:₹4000 </p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <h2>Chairs</h2>
+        <img src="fu4.jpg" alt="Product Image">
+		<h3>Ball Chair</h3>
+        <p>Brand: Bharat Seating Systems India</p>
+        <p>Price: ₹22,248</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+  
+  
+  
